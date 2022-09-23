@@ -2,6 +2,10 @@
 
 Implement an API to control a rover on the surface of Mars.
 
+## Model
+
+The rover has a position given by coordinates `x` and `y`, and an orientation: `north`, `west`, `south` or `east`.
+
 ## Required features
 
 1. Move
@@ -12,9 +16,10 @@ Implement an API to control a rover on the surface of Mars.
 
 1. Use Go
 2. Use TDD
+3. Look up questions in documentation, stackoverflow, etc.
 
-## TDD cycle
+## TDD (Test-driven development) cycle
 
 1. Write a test that fails
 2. Write only enough code for it to pass
-3. Improve code quality
+3. If possible improve code quality
