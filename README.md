@@ -12,6 +12,11 @@ The rover has a position given by coordinates `x` and `y`, and an orientation: `
 2. Turn
 3. Take aerial photos with a drone
 
+### TDD driven by ZOMBIES
+Z - zero (exists)
+O - one
+M - many
+
 # Rules
 
 1. Use Go
@@ -22,4 +27,4 @@ The rover has a position given by coordinates `x` and `y`, and an orientation: `
 
 1. Write a test that fails
 2. Write only enough code for it to pass
-3. If possible improve code quality
+3. If possible improve code quality (refactoring)
