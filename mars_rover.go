@@ -13,10 +13,29 @@ func NewMarsRover(orientation string) marsRover {
 	return rover
 }
 
-func (rover *marsRover) move_forward() {
-	rover.position_x += 1
+func (rover *marsRover) moveForward() {
+	rover.move(1)
 }
 
-func (rover *marsRover) move_backward() {
-	rover.position_x -= 1
+func (rover *marsRover) moveBackward() {
+	rover.move(-1)
+}
+
+func (rover *marsRover) move(direction int) {
+	switch rover.orientation {
+	case "S":
+		rover.position_y -= direction
+	case "N":
+		rover.position_y += direction
+	case "E":
+		rover.position_x += direction
+	case "W":
+		rover.position_x -= direction
+	}
+}
+
+func (rover *marsRover) turnLeft() {
+	// TODO
+	// Find the index of current orientation in "NESW" and return the
+	// value of index - 1
 }

@@ -21,5 +21,5 @@ The rover has a position given by coordinates `x` and `y`, and an orientation: `
 ## TDD (Test-driven development) cycle
 
 1. Write a test that fails
-2. Write only enough code for it to pass
+2. Write only enough code for it to pass (all tests)
 3. If possible improve code quality
